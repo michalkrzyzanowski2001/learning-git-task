@@ -10,4 +10,5 @@ for shop, item in my_dict.items():
 x = 0
 for word in my_dict.values():
     x = x + len(word)
-print(f'I am buying {x} items')   
+print(f'I am buying {x} items')
+print("1st commit of this task")   
