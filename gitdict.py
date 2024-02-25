@@ -11,4 +11,7 @@ x = 0
 for word in my_dict.values():
     x = x + len(word)
 print(f'I am buying {x} items')
-print("1st commit of this task")   
+print("1st commit of this task")
+for i in range(1,5):
+    for j in range(2):
+        print(i*"**")   
